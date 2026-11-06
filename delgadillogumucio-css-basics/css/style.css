@@ -1,0 +1,107 @@
+/* the format for my body in my index.html */
+body {
+    margin: 0;
+    background-color: #faf5ef;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6; /* helps to put space vertical between each line of text */
+}
+
+/* the font and vertical height for my h elements  */
+h1, h2, h3 {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    line-height: 1.2;
+}
+/* The font size 16px multiply by 3 = 48px*/
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px; /* adds spacing between the letters in my h1*/
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #800000;
+    border-bottom: 2px solid #e6c9a8; /* Adds the beige line under my h2 element */
+    padding-bottom: 6px; /*6px space between my bottom border and h2*/
+    margin-top: 40px; /* separates my h2 40px from the previous html content*/
+}
+
+
+p {
+    margin: 0 0 14px; /* the zero values do not change anything to the top/right/left but the 14px adds space below the paragraph */
+}
+
+.intro {
+    font-size: 1.2rem; /* makes my intro text larger than normal paragraphs */
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+    color: #800000;
+}
+
+/* makes my links maroon and bold */
+a {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* changes the link when my mouse is over it */
+a:hover {
+    text-decoration: none; /* removes underline when hovering over link 'email me' */
+}
+
+/* shows an outline when using the keyboard to select a link */
+a:focus-visible {
+    outline: 3px solid #b8860b; /* adds yellow outline*/
+}
+
+.site-header {
+    background-color: #800000; /* makes header background maroon*/
+    color: white; /*white font for my header*/
+    text-align: center; 
+    padding: 0 40px 20px; /* adds 40px top/bottom and 20px left/right inside the header */
+}
+
+/* adds a shadow behind the h1 inside my header */
+.site-header h1 {
+    text-shadow: 2px 2px 4px rgba (0,0,0, 0.35);
+}
+
+.site-footer {
+    text-align: center; /* centers my footer text */
+    font-size: 0.9rem; /* makes the text smaller */
+    color: #666666; /* changes the text to gray */
+    border-top: 1px solid #e6c9a8; /* adds a beige line above the footer */
+    padding: 20px; /* adds space inside my footer */
+}
+
+/* changes the tagline under my name */
+.tagline {
+    margin: 8px 0 0;
+    text-transform: uppercase; /* makes the sentence below my name header all uppercase */
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+    word-spacing: 2px; /* adds more space between words */
+}
+
+/* controls the width and position of my main content */
+.container {
+    max-width: 760px; /* stops my content from getting wider than 760px */
+    margin: 0 auto; /* centers my content horizontally */
+    padding: 0 20px 40px; 
+}
+
+/* quick facts section that creates the white box */
+.card {
+    background-color: white;
+    border: 1px solid #e6c9a8;
+    border-left: 6px solid #800000;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 32px 0;
+    box-shadow: 0 4px 12px rgba(31, 36, 48, 0.12); /* adds a light shadow underneath my card */
+}
